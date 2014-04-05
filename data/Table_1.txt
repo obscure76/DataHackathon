@@ -1,0 +1,22 @@
+{
+	"Scholarships/Grants" : {
+		"Federal" : {"Need_Based " : "36502441" , "Non-Need_based" :"533993" },
+		"state"   : {"Need_Based " : "32454096", "Non-Need_based" :"1896943"},
+		"Insititutional" : {"Need_Based " : "46050585" , "Non-Need_based" :"9078326"},
+		"Other Grants " : {"Need_Based " : "16970707", "Non-Need_based" :"7067015"},
+		"Total" : {"Need_Based" : "131977829", "Non-Need_based" : "18576277"}
+	},
+	"Self-Help" : {
+		"Student Loans " :{"Need_Based " : "66919317", "Non-Need_based" : "46215495"},
+		"Federal Work Study" : {"Need_Based " : "1407865" , "Non-Need_based" : "0" },
+		"State and Other "  : {"Need_Based " : "237274" , "Non-Need_based" : "0"},
+		"Total" :{"Need_Based" : "68564455", "Non-need_based" : "46215495"}
+	},
+	"Other" : {
+		"Parent Loans " : {"Need_Based" : "4775863" , "Non-need_based" : "25844944"},
+		"Tuition Waivers" : {"Need_Based" : "22216451", "Non-need_based" :"8506501"},
+		"Athletic Awards" : {"Need_Based" : "3084271", "Non-need_based" : 428019"}
+	}
+}
+
+
