@@ -5,7 +5,7 @@ import sys
 import os
 from binascii import b2a_hex
 
-myroot = 'Anonymity'
+myroot = 'data'
 
 
 ###
@@ -32,7 +32,7 @@ def with_pdf (pdf_doc, fn, pdf_pwd, *args):
         # connect the parser and document objects
         parser.set_document(doc)
         # supply the password for initialization
-        doc.initialize(pdf_pwd)
+        #doc.initialize(pdf_pwd)
 
         if doc.is_extractable:
             # apply the function and return the result
@@ -205,8 +205,6 @@ def get_pages(pdf_doc, pdf_pwd='', images_folder='/tmp'):
     """Process each of the pages in this pdf file and return a list of strings representing the text found in each page"""
     return with_pdf(pdf_doc, _parse_pages, pdf_pwd, *tuple([images_folder]))
 
-myroot = 'Anonymity'
-
 
 def pdfparser():
     global myroot
@@ -214,7 +212,8 @@ def pdfparser():
         for filename in files:
             if filename.endswith('.pdf'):
                 print get_pages(os.path.join(myroot, filename), '', )
-                break
+
+
 
 print 'Hello'
 pdfparser()
